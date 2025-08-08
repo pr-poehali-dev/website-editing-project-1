@@ -106,6 +106,22 @@ const Index = () => {
 
         </div>
 
+        {/* Featured Interior */}
+        <div className="mb-16 fade-in">
+          <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+            <img 
+              src="https://cdn.poehali.dev/files/f534e3d0-b9d0-4057-9de9-1c97e0e7ef1c.jpg" 
+              alt="Элегантный интерьер с розовым диваном и художественными произведениями"
+              className="w-full h-96 lg:h-[500px] object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/20" />
+            <div className="absolute bottom-8 left-8 text-white">
+              <h3 className="text-3xl font-bold mb-2">Роскошь в каждой детали</h3>
+              <p className="text-lg opacity-90 max-w-md">Создайте уютное пространство с нашими эксклюзивными товарами</p>
+            </div>
+          </div>
+        </div>
+
         {/* Search and Filters */}
         <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 mb-12 shadow-lg">
           <div className="flex flex-col md:flex-row gap-4 items-center">
