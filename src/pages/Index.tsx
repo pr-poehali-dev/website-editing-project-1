@@ -89,14 +89,6 @@ const Index = () => {
               <Button variant="ghost" size="icon">
                 <Icon name="Heart" size={20} />
               </Button>
-              <Button variant="ghost" size="icon" className="relative">
-                <Icon name="ShoppingCart" size={20} />
-                <span className="absolute -top-2 -right-2 bg-primary text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
-              </Button>
-              <Button variant="outline">
-                <Icon name="User" size={16} className="mr-2" />
-                Войти
-              </Button>
             </div>
           </div>
         </div>
@@ -111,20 +103,7 @@ const Index = () => {
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Откройте для себя лучшие товары с быстрой доставкой и гарантией качества
           </p>
-          <div className="flex justify-center space-x-4">
-            <Badge variant="secondary" className="px-4 py-2 text-sm">
-              <Icon name="Truck" size={16} className="mr-2" />
-              Бесплатная доставка
-            </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">
-              <Icon name="Shield" size={16} className="mr-2" />
-              Гарантия 2 года
-            </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">
-              <Icon name="Headphones" size={16} className="mr-2" />
-              24/7 поддержка
-            </Badge>
-          </div>
+
         </div>
 
         {/* Search and Filters */}
